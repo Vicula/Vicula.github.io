@@ -11,6 +11,20 @@
   left: -1.5%;
 }
 
+.socialBox{
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  padding-top: 15px;
+  font-size: 18px;
+  color:#8B5B59;
+}
+
+a{
+  color:#8B5B59;
+}
+
 .s1Header{
   font-size: 150px;
   text-align: center;
