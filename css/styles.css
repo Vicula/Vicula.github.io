@@ -12,14 +12,12 @@
 }
 
 .socialBox{
-  position: fixed;
-  top: 0;
-  right: 0;
+  float: right;
   padding: 10px;
   padding-top: 15px;
   font-size: 18px;
   color:#8B5B59;
-  z-index: 5;
+  z-index: 1000;
 }
 
 a{
