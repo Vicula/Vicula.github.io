@@ -8,7 +8,11 @@
 
 .topNav p{
   position: relative;
-  left: -2%;
+  left: -1.5%;
+}
+
+#app-container{
+  overflow-y: hidden;
 }
 
 .socialBox{
