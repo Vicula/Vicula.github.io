@@ -33,10 +33,11 @@ body{
   background: url('../images/Victor 1_Fotor.jpg');
   width: 20%;
   height: 20vh;
-  margin: auto;
+  margin: 5% auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 
@@ -837,6 +838,13 @@ body{
   text-align: center;
 }
 
+.about__sub-text{
+  font-size: 2vw;
+  margin: 0 0.5vw;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
 .project-row{
   font-size: 0;
   display: inline-block;
@@ -892,4 +900,11 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-text{
+  font-size: 1vw;
+  margin: 0 1vw;
+  text-align: center;
+  text-shadow: 0.1vw 0.1vw gray;
 }
