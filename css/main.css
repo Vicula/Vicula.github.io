@@ -975,7 +975,6 @@ body{
 .test2{
   position: relative;
   padding-top: 2vh;
-
   font-size: 5vw;
   color: #ECECEC;
   font-family: 'Julius Sans One', sans-serif;
@@ -997,7 +996,7 @@ body{
   /*text-align: left;*/
   color: black;
   z-index: 2;
-
+  font-size: 1.1vw;
   font-weight: bold;
   /*font-family: inherit;*/
   text-shadow: none;
