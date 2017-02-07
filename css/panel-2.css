@@ -163,6 +163,7 @@
   margin-top: 2vh;
   cursor: pointer;
   width: 10%;
+  font-size: 1.25vw;
   text-decoration: none;
 }
 .sel-2 .panel-2 .seeMore a{

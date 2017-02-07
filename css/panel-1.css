@@ -134,9 +134,12 @@
   z-index: 5;
 }
 
-.sel-1 .panel-1 .content img{
-  width: 10%;
+.sel-1 .panel-1 .content .pic{
+  width: 25vw;
+  padding: 0;
+  margin: 0;
   display: inline-block;
+  margin: 1vw;
 }
 
 .sel-1 .panel-1 .content .header{
@@ -145,12 +148,21 @@
 
 .sel-1 .panel-1 .content .subtext{
   font-size: 1.5vw;
-  padding: 5vh 10vw;
+  /*padding: 5vh 10vw;*/
   color: black;
-  margin: 5vh 0;
+  /*margin: 5vh 0;*/
+  margin: 0;
+  margin-left: 5vw;
+  display: inline-block;
+  width: 45%;
 
-  /*background: radial-gradient(circle, rgba(0,0,0,0), rgba(255,255,255,0.7))*/
-  background: white;
+}
+
+
+
+.sel-1 .panel-1 .content .picHolder{
+  display: inline-block;
+
 }
 
 .sel-1 .panel-1 .under{
@@ -161,11 +173,27 @@
 
 }
 .sel-1 .panel-1 .under i{
-  position: relative;
+  position: absolute;
   font-size: 30vw;
+  z-index: 10;
   color: rgba(118, 188, 140, 0.1);
   /*left: -10vw;*/
-  top: -100vh;
-  right: -60vw;
+  bottom: 30vw;
+  left: 60vw;
   transition: 2.5s;
+}
+
+.sel-1 .panel-1 .bottom-holder{
+  margin-top: 100px;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.sel-1 .panel-1 .profPic{
+  width: 5vw;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin: 1vw;
 }
