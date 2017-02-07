@@ -1,0 +1,132 @@
+.panel-4{
+  background: url("../images/pexels-photo-219692.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel:hover .icon-4{
+  color: #FFB2AF;
+}
+
+.sel-4 .panel{
+  width: 10vw;
+}
+.sel-4 .panel-4{
+  width: 100vw;
+  margin: auto -5vw;
+  align-self: center;
+  height: 98vh;
+  z-index: 3;
+  overflow: hidden;
+}
+.sel-4 .panel-4 .shadow-box{
+  display: none;
+}
+.sel-4 .panel-4 .panel-content .bar-1{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  right: -1vw;
+  top: -12vh;
+  transform: rotate(10deg);
+  transition: 1s;
+
+}
+.sel-4 .panel:hover .hover-text{
+  display: none;
+}
+.sel-4 .panel-4 .panel-content .bar-2{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+  transition: 1s;
+
+}
+.sel-4 .panel-4 .panel-content .bar-3{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+  transition: 1.5s;
+
+}
+.sel-4 .panel-4 .panel-content .bar-4{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transform: rotate(-6deg);
+  transition: 1.5s;
+}
+.sel-4 .panel-4 .panel-content .top{
+  background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
+  /*background: white;*/
+  width: 100%;
+  height: 60vh;
+}
+
+.sel-4 .panel-4:hover{
+  background: url('../images/pexels-photo-219692.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.se-4 .panel:hover .hover-text{
+  transform: rotate(30deg);
+}
+
+.sel-4 .panel-3{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  right: 3vw;
+  z-index: 2;
+}
+
+.sel-4 .panel-3 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+.sel-4 .panel-2{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+}
+.sel-4 .panel-2 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+.sel-4 .panel-1{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 85vh;
+  position: relative;
+  left: 3vw;
+  z-index: 1;
+}
+
+.sel-4 .panel-1 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+
+.sel-4 .panel-5{
+  transform: skewY(20deg) rotateY(-5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  /*right: 3vw;*/
+  z-index: 2;
+}
+.sel-4 .panel-5 .shadow-box{
+  background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}

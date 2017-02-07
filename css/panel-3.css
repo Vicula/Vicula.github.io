@@ -1,0 +1,182 @@
+.panel-3{
+  background: url("../images/pexels-photo-110055.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.panel:hover .icon-3{
+  color: #DD4436;
+}
+
+
+
+.sel-3 .panel{
+  width: 10vw;
+}
+.sel-3 .panel-3{
+  width: 100vw;
+  margin: auto -5vw;
+  align-self: center;
+  height: 98vh;
+  z-index: 3;
+  overflow: hidden;
+}
+.sel-3 .panel-3 .shadow-box{
+  display: none;
+}
+
+.sel-3 .panel-3 .panel-content .bar-1{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  top: -12vh;
+  transform: rotate(10deg);
+  transition: 1.5s;
+}
+.sel-3 .panel-3 .panel-content .bar-2{
+  background: white;
+  width: 110%;
+  height: 20vh;
+  position: relative;
+  left: -2vw;
+  top: -30vh;
+  transition: 1.5s;
+  transform: rotate(-6deg);
+}
+.sel-3 .panel:hover .hover-text{
+  display: none;
+}
+.sel-3 .panel-3 .panel-content .top{
+  background: linear-gradient(to bottom, #ECECEC, #fff,#fff);
+  /*background: white;*/
+  width: 100%;
+  height: 60vh;
+  transition: 1.5s;
+  padding-top: 0.75vh;
+  text-align: center;
+}
+
+.sel-3 .panel-3:hover{
+  background: url('../images/pexels-photo-110055.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sel-3 .panel-2{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  right: 3vw;
+  z-index: 2;
+}
+
+.sel-3 .panel-2 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+.sel-3 .panel-1{
+  transform: skewY(-20deg) rotateY(5deg);
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+}
+.sel-3 .panel-1 .shadow-box{
+  background: linear-gradient(to left, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+.sel-3 .panel-4{
+  transform: skewY(20deg) rotateY(-5deg);
+  height: 95vh;
+  align-self: center;
+  position: relative;
+  left: 3vw;
+  z-index: 2;
+}
+.sel-3 .panel-4 .shadow-box{
+  background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+
+.sel-3 .panel-5{
+  transform: skewY(20deg) rotateY(-5deg);
+  height: 90vh;
+  position: relative;
+  z-index: 1;
+}
+
+.sel-3 .panel-5 .shadow-box{
+  background: linear-gradient(to right, rgba(25,25,25,0.9), rgba(0,0,0,0))
+}
+
+.sel-3 .panel-3 .content{
+  position: relative;
+  top: -100vh;
+  text-align: center;
+  display: inherit;
+  overflow-y: scroll;
+}
+.sel-3 .panel-3 .header{
+  font-size: 6vw;
+  padding: 0 10vw;
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 5vh;
+}
+
+.sel-3 .panel-3 .subheader{
+  color: white;
+  font-size: 3vw;
+}
+
+.sel-3 .panel-3 .slogan{
+  font-size: 2vw;
+  padding: 0 15vw;
+  margin-top: 50px;
+  color: darkgray;
+}
+
+.sel-3 .panel-3 .bio{
+  padding: 0 10vw;
+  font-size: 1vw;
+}
+
+.sel-3 .panel-3 .box-holder{
+  width: 100%;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: 8vh;
+
+}
+
+.sel-3 .panel-3 .icon-box{
+  width: 33%;
+  display: inline-block;
+
+}
+.sel-3 .panel-3 .icon-box i{
+  font-size: 5vw;
+  color: #DD4436;
+}
+.sel-3 .panel-3 .icon-box p{
+  font-size: 1.5vw;
+  padding: 0 0.5vw;
+}
+
+.sel-3 .panel-3 .under{
+  position: relative;
+  width: 0;
+  height: 0;
+  z-index: 1;
+
+}
+.sel-3 .panel-3 .under i{
+  position: relative;
+  font-size: 30vw;
+  color: rgba(221, 68, 54, 0.1);
+  left: -10vw;
+  top: -50vh;
+  transition: 2.5s;
+}

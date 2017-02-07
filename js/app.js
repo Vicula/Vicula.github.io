@@ -1,79 +1,48 @@
-var element = document.querySelector('.app-container');
+const panel1 = document.querySelector('.panel-1');
+const panel2 = document.querySelector('.panel-2');
+const panel3 = document.querySelector('.panel-3');
+const panel4 = document.querySelector('.panel-4');
+const panel5 = document.querySelector('.panel-5');
 
-var panel = document.querySelector('.panel-3');
-var panelShadow = document.querySelector('.shadow-current')
-var allPanel = document.querySelectorAll('.panel')
+const app = document.querySelector('#app-container')
 
-var isOn = false;
+console.log(panel1,panel2,panel3,panel4,panel5)
 
-var panelWidth = panel.offsetWidth
-var panelHeight = panel.offsetHeight
-
-
-
-var mouseFunc = function(e){
-  // console.log(e)
-
-  // console.log(e)s
-
-    // panel.style.transform = "skew(0deg, -3deg)rotate3d(0,1,0,-3deg)"
-    // panelShadow.style.background = "linear-gradient(to right, rgba(45,45,45,0.4) 5%, rgba(0,0,0,0) 60%)"
-
-    // console.log("X =" +(e.offsetX/panelWidth)*100);
-    // console.log("Y =" +(e.offsetY/panelHeight)*100);
+var crntScreen = 'home'
 
 
-  //
-  // let xPos = (e.offsetX/panelWidth)*100
-  // // let yPos =
-  // // console.log(-3/xPos)
-  // if(xPos > 50){
-  //   xPos = xPos - 50
-  //   console.log(xPos *0.5)
-  // }
-
-  // let xPos = (e.screenX/windowWidth)*100
-
-
-
-}
-
-var tileOn = function(e){
-  for (let i = 0; i < allPanel.length; i++){
-    let newName = allPanel[i].classList[0] + " " + allPanel[i].classList[1]
-    let shaName = allPanel[i].children[0].classList[0] + " " + allPanel[i].children[0].classList[1]
-
-    allPanel[i].children[0].className = shaName
-    allPanel[i].className = newName
-
+panel1.addEventListener('click', function(){
+  if(app.className === "sel-1"){
+    app.className = 'home'
+  }else {
+    app.className = 'sel-1'
   }
-}
-var tileOff = function(e){
-  for (let i = 0; i < allPanel.length; i++){
-
-    allPanel[i].children[0].className += " shadow-none"
-    allPanel[i].className += " panel-normal"
-    element.className = "app-container home"
-
+})
+panel2.addEventListener('click', function(){
+  if(app.className === "sel-2"){
+    app.className = 'home'
+  }else {
+    app.className = 'sel-2'
   }
-}
-
-
-var statusSwitch = function(e){
-  let daNumb =  e.target.classList[1].split("-")
-  if(element.className === "app-container home"){
-    element.className = "app-container sel-" + daNumb[1]
-    tileOn(e)
-    isOn = true
-  } else if (element.className === "app-container sel-" + daNumb[1]){
-    tileOff(e)
-    isOn = false
-  } else {
-    element.className = "app-container sel-" + daNumb[1]
+})
+panel3.addEventListener('click', function(){
+  if(app.className === "sel-3"){
+    app.className = 'home'
+  }else {
+    app.className = 'sel-3'
   }
-
-}
-
-
-
-element.addEventListener('click', statusSwitch)
+})
+panel4.addEventListener('click', function(){
+  if(app.className === "sel-4"){
+    app.className = 'home'
+  }else {
+    app.className = 'sel-4'
+  }
+})
+panel5.addEventListener('click', function(){
+  if(app.className === "sel-5"){
+    app.className = 'home'
+  }else {
+    app.className = 'sel-5'
+  }
+})
